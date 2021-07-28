@@ -1,7 +1,7 @@
 library polyeditor;
 
 import 'package:flutter/material.dart';
-import 'package:latlong/latlong.dart';
+import 'package:latlong2/latlong.dart';
 import 'package:flutter_map_dragmarker/dragmarker.dart';
 
 class PolyEditor {
