@@ -14,22 +14,13 @@ description: Line editor class for flutter_map
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.2.0 <3.0.0"
+  sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map:
-    git:
-      url: https://github.com/killerm250m/flutter_map.git
-  
-  
-  
-  
-    #git:
-    #  url: https://github.com/johnpryan/flutter_map.git
+  flutter_map: ^0.13.1
   latlong: any
-
   flutter_map_dragmarker:
     git:
       url: https://github.com/ibrierley/flutter_map_dragmarker.git         
