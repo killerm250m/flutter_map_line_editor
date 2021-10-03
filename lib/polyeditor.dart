@@ -5,7 +5,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:flutter_map_dragmarker/dragmarker.dart';
 
 class PolyEditor {
-  final List points;
+   List points;
   final Widget pointIcon;
   final Size pointIconSize;
   final Widget intermediateIcon;
