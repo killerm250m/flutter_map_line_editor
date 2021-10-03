@@ -48,7 +48,7 @@ class _TestAppState extends State<TestApp> {
           child: Container(
             child: FlutterMap(
               options: MapOptions(
-                onTap: (ll) {
+                onTap: (ll,x) {
                   polyEditor.add(testPolyline.points, ll);
                 },
                 plugins: [
